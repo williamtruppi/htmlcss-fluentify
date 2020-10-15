@@ -150,3 +150,35 @@ main{
   color: grey;
   font-weight: bolder;
 }
+
+/* SECOND_ROW */
+
+.SECOND_ROW{
+  margin: 40px 0;
+}
+
+.col_3{
+  width: calc(100% / 3);
+}
+
+.col_3 img{
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.col_3 h3{
+  font-size: 25px;
+  color: #7cbb02;
+}
+
+.col_3 hr{
+  width: 60px;
+  color: grey;
+  margin: 20px auto;
+}
+
+.col_3 p{
+  color: grey;
+  font-size: 18px;
+  padding: 0 20px;
+}
