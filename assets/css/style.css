@@ -162,6 +162,7 @@ main{
 
 .SECOND_ROW .col_3{
   width: calc(100% / 3);
+  padding: 0 20px;
 }
 
 .SECOND_ROW .col_3 img{
