@@ -32,6 +32,10 @@
   display: table;
 }
 
+.text_center{
+  text-align: center;
+}
+
 /* chiusura classi UTILITY */
 
 .container{
@@ -132,7 +136,6 @@ nav{
 
 main{
   width: 100%;
-  text-align: CENTER;
 }
 
 /* FIRST_ROW */
@@ -154,7 +157,7 @@ main{
 /* SECOND_ROW */
 
 .SECOND_ROW{
-  margin: 40px 0;
+  margin: 40px 0 0;
 }
 
 .col_3{
@@ -181,4 +184,33 @@ main{
   color: grey;
   font-size: 18px;
   padding: 0 20px;
+}
+
+/* THIRD_ROW */
+
+.THIRD_ROW hr{
+  width: 99%;
+  margin: 40px auto;
+  border: 0.5px solid lightgrey;
+}
+
+.col_2{
+  width: 50%;
+}
+
+.col_2 img{
+  width: 450px;
+  padding-left: 40px;
+}
+
+.col_2 h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.col_2 p{
+  color: grey;
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
