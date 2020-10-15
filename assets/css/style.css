@@ -160,27 +160,27 @@ main{
   margin: 40px 0 0;
 }
 
-.col_3{
+.SECOND_ROW .col_3{
   width: calc(100% / 3);
 }
 
-.col_3 img{
+.SECOND_ROW .col_3 img{
   height: 150px;
   margin-bottom: 20px;
 }
 
-.col_3 h3{
+.SECOND_ROW .col_3 h3{
   font-size: 25px;
   color: #7cbb02;
 }
 
-.col_3 hr{
+.SECOND_ROW .col_3 hr{
   width: 60px;
   color: grey;
   margin: 20px auto;
 }
 
-.col_3 p{
+.SECOND_ROW .col_3 p{
   color: grey;
   font-size: 18px;
   padding: 0 20px;
@@ -194,23 +194,61 @@ main{
   border: 0.5px solid lightgrey;
 }
 
-.col_2{
+.THIRD_ROW .col_2{
   width: 50%;
 }
 
-.col_2 img{
+.THIRD_ROW .col_2 img{
   width: 450px;
   padding-left: 40px;
 }
 
-.col_2 h2{
+.THIRD_ROW .col_2 h2{
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-.col_2 p{
+ .THIRD_ROW .col_2 p{
   color: grey;
   width: 400px;
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+/* footer */
+
+footer{
+  width: 100%;
+  height: 150px;
+  margin-top: 40px;
+  line-height: 150px;
+}
+
+footer .left, footer .right{
+  width: 50%;
+}
+
+footer .right {
+  text-align: right;
+}
+
+footer h2{
+  font-size: 30px;
+}
+
+footer strong, footer span{
+  color: grey;
+}
+
+footer span{
+  padding-bottom: 3px;
+  border-bottom: 1px solid grey;
+  margin: 0 30px;
+}
+
+footer a{
+  border-radius: 5px;
+  text-decoration: NONE;
+  color: WHITE;
+  padding: 22PX 10PX;
 }
