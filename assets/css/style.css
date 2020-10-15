@@ -19,22 +19,79 @@
   background-color: #d3d3d3;
 }
 
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+
+.clear_fix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* chiusura classi UTILITY */
+
 .container{
   width: 80%;
-  background: yellow;
   margin: auto;
   border: 1px solid black;
 }
 
 header{
   width: 100%;
-  height: 480px;
+  height: 550px;
 }
+
+/* NAV BAR */
 
 nav{
   height: 15%;
   width: 100%;
+  line-height: 80px;
+  font-size: 11.2px;
 }
+
+.menu_left, .navbar_logo{
+  height: 80px;
+}
+
+.navbar_logo img{
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+.menu_left ul li, .menu_right ul li {
+  display: inline-block;
+}
+
+.menu_left a, .menu_right a{
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+#login{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 8px;
+}
+
+#plan_bar{
+  background-color: orange;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.menu_left a:hover{
+  color: orange;
+}
+
+
+/* BANNER CENTRALE */
 
 .hero_banner{
   height: 85%;
