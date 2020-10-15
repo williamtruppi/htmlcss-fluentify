@@ -89,7 +89,7 @@ nav{
   padding: 10px 15px;
 }
 
-.menu_left a:hover{
+.menu_left a:hover, .menu_left a:focus{
   color: orange;
 }
 
