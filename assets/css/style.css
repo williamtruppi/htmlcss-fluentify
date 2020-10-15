@@ -127,3 +127,26 @@ nav{
   text-decoration: none;
   color: white;
 }
+
+/* main */
+
+main{
+  width: 100%;
+  text-align: CENTER;
+}
+
+/* FIRST_ROW */
+
+.FIRST_ROW{
+  width: 100%;
+  padding: 40PX 0;
+}
+
+.FIRST_ROW H2{
+  padding: 0 0 10PX;
+}
+
+.FIRST_ROW p{
+  color: grey;
+  font-weight: bolder;
+}
