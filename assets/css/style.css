@@ -37,7 +37,6 @@
 .container{
   width: 80%;
   margin: auto;
-  border: 1px solid black;
 }
 
 header{
@@ -81,7 +80,7 @@ nav{
 }
 
 #plan_bar{
-  background-color: orange;
+  background-color: #7cbb02;
   border-radius: 5px;
   padding: 10px 15px;
 }
@@ -90,9 +89,41 @@ nav{
   color: orange;
 }
 
-
 /* BANNER CENTRALE */
 
 .hero_banner{
   height: 85%;
+  position: relative;
+  background-image: url("../img/banner_header.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 150% 300%;
+}
+
+.banner_logo{
+  width: 565px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.hero_banner > .container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.banner_logo h1{
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.banner_logo a{
+  background-color: #7cbb02;
+  font-size: 14px;
+  padding: 25px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
 }
